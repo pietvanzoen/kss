@@ -14,7 +14,7 @@
         _ref = document.styleSheets;
         for (_i = 0, _len = _ref.length; _i < _len; _i++) {
           stylesheet = _ref[_i];
-          if (stlylesheet.href && stylesheet.href.indexOf(document.domain) >= 0) {
+          if (stylesheet.href && stylesheet.href.indexOf(document.domain) >= 0) {
             idxs = [];
             _ref1 = stylesheet.cssRules;
             for (idx = _j = 0, _len1 = _ref1.length; _j < _len1; idx = ++_j) {
